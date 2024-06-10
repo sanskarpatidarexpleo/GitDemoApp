@@ -1,0 +1,56 @@
+[
+    {
+        "id": "sd_Sg5huti9IiIt8nPB",
+        "type": "tab",
+        "createdDate": "2024-06-10T06:22:19.818Z",
+        "label": "RegisterPage",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "RegisterPageComponent"
+    },
+    {
+        "id": "sd_8TSz8PY18E3RGr5z",
+        "type": "OnInit",
+        "z": "sd_Sg5huti9IiIt8nPB",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_8TSz8PY18E3RGr5z",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_MkDukGDecZOCGFfL"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "RegisterPageComponent"
+    },
+    {
+        "id": "sd_MkDukGDecZOCGFfL",
+        "type": "PageVariables",
+        "z": "sd_Sg5huti9IiIt8nPB",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [],
+        "functionName": "sd_MkDukGDecZOCGFfL",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "serviceName": "RegisterPageComponent",
+        "generated": true
+    }
+]
