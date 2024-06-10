@@ -16,6 +16,8 @@ window['neutrinos'] = {
 };
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-ClaimsIntimationComponent
+import { ClaimsIntimationComponent } from '../components/ClaimsIntimation.component';
 //CORE_REFERENCE_IMPORT-DashboardPageComponent
 import { DashboardPageComponent } from '../components/DashboardPage.component';
 //CORE_REFERENCE_IMPORT-RegisterPageComponent
@@ -56,6 +58,8 @@ export const appDeclarations = [
   PageNotFoundComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+  //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-ClaimsIntimationComponent
+  ClaimsIntimationComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-DashboardPageComponent
   DashboardPageComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-RegisterPageComponent
@@ -89,7 +93,7 @@ export const appProviders = [
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
 export const appRoutes = [
-  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END

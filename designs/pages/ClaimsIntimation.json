@@ -1,0 +1,56 @@
+[
+    {
+        "id": "sd_nbXhgL9gElSj73uX",
+        "type": "tab",
+        "createdDate": "2024-06-10T06:41:44.004Z",
+        "label": "ClaimsIntimation",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "ClaimsIntimationComponent"
+    },
+    {
+        "id": "sd_5x6UIOKw3djSmeif",
+        "type": "OnInit",
+        "z": "sd_nbXhgL9gElSj73uX",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_5x6UIOKw3djSmeif",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_cQzSFrrDj8UKP1e7"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "ClaimsIntimationComponent"
+    },
+    {
+        "id": "sd_cQzSFrrDj8UKP1e7",
+        "type": "PageVariables",
+        "z": "sd_nbXhgL9gElSj73uX",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [],
+        "functionName": "sd_cQzSFrrDj8UKP1e7",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "serviceName": "ClaimsIntimationComponent",
+        "generated": true
+    }
+]
