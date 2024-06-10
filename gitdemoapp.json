@@ -1,0 +1,13 @@
+{
+    "displayName": "GitDemoApp",
+    "appName": "gitdemoapp",
+    "description": "git impl",
+    "lastModified": "2024-06-10T06:00:13.964Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "uiOnly",
+    "templateName": "blank",
+    "createDate": "2024-06-10T06:00:10.627Z",
+    "analyticsId": "3ee28b63-e4d8-c18f-dddb-8cd286e35a07",
+    "createdStudioVersion": "9.2.1"
+}
